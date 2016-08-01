@@ -1,0 +1,157 @@
+.inhalt {
+    margin-top: 80px;    
+}
+
+.profilbild_image {
+    border-radius: 20px; 
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 50px #865103;
+    
+}
+
+.reisen_bild {
+    border-radius: 20px; 
+    margin-bottom: 10px; 
+    margin-top: 30px;
+    box-shadow: 10px 10px 50px #865103;
+    
+}
+
+.kontaktbild:hover {
+    transform: rotate(-15deg);
+    box-shadow: 10px 10px 50px #865103;
+}
+
+.kontaktbild {
+
+transition: all 0.7s ease;
+border-radius: 400px; 
+    margin-bottom: 10px; 
+    margin-top: 25px;  
+box-shadow: 10px 10px 50px #865103;
+}
+
+body {
+    background-color: #fdf3ec;
+    font-family: calibri;
+    color: darkslategrey;
+}
+
+h1 {
+    font-size: 50px;
+    color: darkslategrey;
+}
+
+.ueberschrift_artikel {
+    font-size: 50px;
+    color: darkslategrey;
+    margin-top: 180px;
+}
+
+
+.ueberschrift {
+    font-size: 50px;
+    color: darkslategrey;
+}
+
+h2 {
+    font-size: 30px;
+    color: #f786b0;
+    font-style: italic;
+}
+
+.lead {
+    color: #f786b0;
+    font-style: italic;
+}
+
+.menu {
+    height: 40px;
+    width: auto;
+}
+ 
+
+.menu {
+    margin-top: 6px;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    font-family: calibri;
+}
+ 
+
+.menu li {
+    position: relative;
+    list-style: none;
+    float: left;
+    display: block;
+    height: 40px;
+}
+
+.menu li a {
+    display: block;
+    padding: 0 14px;
+    margin: 6px 0;
+    line-height: 30px;
+    text-decoration: none;
+     font-weight: bold;
+    font-size: 14px;
+ 
+    color: #fdf3ec;
+
+}
+ 
+.menu li:first-child a { border-left: none; }
+.menu li:last-child a{ border-right: none; }
+ 
+.menu li:hover > a { color: #f786b0;  }
+
+	
+.menu ul {
+    position: absolute;
+    top: 40px;
+    background: #1f2024;
+
+}
+ 
+.menu li:hover > ul { opacity: 1; }
+ 
+.menu ul li {
+ height: 0;
+    overflow: hidden;
+}
+ 
+.menu li:hover > ul li {
+    height: 40px;
+    overflow: visible;
+    padding: 0;
+}
+
+.menu ul li a {
+    width: 160px;
+    padding: 4px 0 4px 40px;
+    border: none;
+    border-bottom: 1px solid #353539;
+}
+ 
+.menu ul li:last-child a { border: none; }
+
+
+.active {
+    color:#f786b0;
+    background-color: dimgrey;
+}
+
+.ersterartikel {
+    margin-top: 80px;
+}
+
+.meinartikelbild {
+    margin-top: 30px;
+    box-shadow: 10px 10px 50px #865103;
+}
+
+.zusatzbild {
+    padding-left: 400px;
+    box-shadow: 10px 10px 50px #865103;
+}
